@@ -1,0 +1,2 @@
+# Crontab usuario Mariano
+*/5 * * * * /home/Mariano/Scripts/ping.sh

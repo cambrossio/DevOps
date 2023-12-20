@@ -1,0 +1,2 @@
+# Crontab Usuario Jose
+0 18 * * * echo $USER > /home/Jose/procedures/kick.txt

@@ -1,0 +1,9 @@
+#Crontab 1 General del Sistema Punto 3 - Desafio4
+#Ejecuta esto en min 15,30,45 de la hora 6,12 y 18 de Lunes C/mes con usuario Mariano
+
+15,30,45 6,12,18 * * 1 su -c "free -m" -s /bin/bash Mariano
+ 
+#Crontab 2 General del Sistema Punto 4 - Desafio4
+#Ejecuta entre 15.30 y 15.35 el dia 17 de C/mes.
+
+30,35 15 17 * * su -c "df -h" -s /bin/bash Jose
